@@ -9,7 +9,7 @@
         let root = json.links.role_appointments[1];
         let endDate = root.details.ended_on;
 
-        hasResigned = !(endDate == null)
+        hasResigned = !(endDate == null);
 
         if (hasResigned) {
             date = new Date(root.details.ended_on);
@@ -36,6 +36,13 @@
         {:else}
             <h1>🦀 BORIS IS GONE 🦀</h1>
             <p>Boris resigned on <strong>{date.toLocaleString()}</strong>.</p>
+            <br>
+            <iframe src="https://www.youtube.com/embed/LDU_Txk06tM?autoplay=1&amp;t=74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         {/if}
+    </div>
+
+    <div class="content">
+        <h4>Why should he resign?</h4>
+        he thicc
     </div>
 </container>
