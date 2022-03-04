@@ -1,0 +1,86 @@
+---
+permalink: /404.html
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Boris Gone? Has Boris Resigned?</title>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        body {
+            background-color: #000;
+        }
+
+        /* container */
+        main {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        /* boris face */
+        img {
+            width: 30vw;
+            animation: rotate 5s linear infinite;
+        }
+
+        /* background image */
+        aside {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+
+            background-image: url('/john-cameron-WfL-tclEvIw-unsplash.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            filter: brightness(0.2);
+
+            z-index: -1;
+        }
+
+        /* spinny animation */
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+</head>
+<body>
+    
+    <aside>
+        <!-- background image -->
+        &nbsp;
+    </aside>
+
+    <main>
+        <img src="/bojo_face.png" alt="Boris Johnson's Face">
+    </main>
+
+</body>
+</html>
