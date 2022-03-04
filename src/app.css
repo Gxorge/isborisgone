@@ -93,14 +93,14 @@ header {
     min-height: 110vh;
 
     background-color: #713F12;
-    background: linear-gradient(180deg, #713F12 0%, #713F12 75%, #1C1917 100%); 
+    background: linear-gradient(180deg, #713F12 0%, #713F12 60%, #1C1917 100%); 
     color: #FEFCE8;
     text-align: center;
 }
 
 header div#header-inner {
     /* this is jank but meh flexbox is a pain */
-    margin-top: -20em;
+    margin-top: -30em;
 }
 
 article { 
