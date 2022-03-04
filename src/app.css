@@ -8,11 +8,7 @@ body {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 400;
 
-    /*
-        piss yellow, very fitting imo
-        - tom
-    */
-    background-color: #713F12;
+    background-color: #1C1917;
     color: #FEFCE8;
 }
 
@@ -90,8 +86,21 @@ aside#spinny img {
     animation: rotate 5s linear infinite;
 }
 
-header {
+header {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+
+    background-color: #713F12;
+    background: linear-gradient(180deg, #713F12 0%, #713F12 75%, #1C1917 100%); 
+    color: #FEFCE8;
     text-align: center;
+}
+
+header div#header-inner {
+    /* this is jank but meh flexbox is a pain */
+    margin-top: -20em;
 }
 
 article { 

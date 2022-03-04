@@ -54,12 +54,13 @@
     - tom
 -->
 
-
-<aside id="spinny">
-	<img src="bojo_face.png" alt="Boris Johnson's Face">
-</aside>
-
 <header>
+<div id="header-inner">
+	
+	<aside id="spinny">
+		<img src="bojo_face.png" alt="Boris Johnson's Face">
+	</aside>
+
 	{#if !hasResigned}
 		<h1 id="title">Boris <i>is still</i> <wbr>in &numero;10</h1>
 		<h2 id="subtitle">He's been there for <i>{daysSinceStart} days</i></h2>
@@ -75,6 +76,8 @@
 			title="bg"
 		/>
 	{/if}
+
+</div>
 </header>
 
 <article>
