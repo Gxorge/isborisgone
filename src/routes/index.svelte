@@ -38,28 +38,32 @@
 	export let weekly: number;
 </script>
 
-<container class="container">
-	<div class="content has-text-centered">
-		{#if !hasResigned}
-			<h1>Boris has not yet resigned.</h1>
-            <h6>The blood of {deaths.toLocaleString()} innocent people are on his hands.</h6>
-		{:else}
-			<h1>🦀 BORIS IS GONE 🦀</h1>
-			<p>Boris resigned on <strong>{date.toLocaleString()}</strong>.</p>
-			<br />
-			<iframe
-				src="https://www.youtube.com/embed/LDU_Txk06tM?autoplay=1&amp;t=74"
-				frameborder="0"
-				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen
-                title="bg"
-			/>
-		{/if}
-	</div>
+<!--
+	as a svelte newbie i don't know if the content is meant to be wrapped in something?
+	but this seems to work alright?
+    - tom
+-->
 
-	<div class="content">
-		<h4>Why should he resign?</h4>
-		His lackluster response to the COVID-19 pandemic during its beginnings have lead to a total of {deaths.toLocaleString()}
-		deaths, with {weekly.toLocaleString()} occurring this week. Whilst we made sacrefices, Boris and his team partied away at No. 10 ignoring all social distancing rules.
-	</div>
-</container>
+<header>
+	{#if !hasResigned}
+		<h1>Boris has not yet resigned.</h1>
+	{:else}
+		<h1>🦀 BORIS IS GONE 🦀</h1>
+		<p>Boris ceased being PM on <strong>{date.toLocaleString()}</strong>.</p>
+		<br />
+		<iframe
+			src="https://www.youtube.com/embed/LDU_Txk06tM?autoplay=1&amp;t=74"
+			frameborder="0"
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen
+			title="bg"
+		/>
+	{/if}
+</header>
+
+<article>
+	<h2>Why should he resign?</h2>
+	<h3>Covid Response</h3>
+	His lackluster response to the COVID-19 pandemic during its beginnings have lead to a total of {deaths.toLocaleString()}
+	deaths, with {weekly.toLocaleString()} occurring this week. While we made sacrifices, Boris and his team partied away at No. 10 ignoring all social distancing rules.
+</article>
