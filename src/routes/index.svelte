@@ -42,7 +42,7 @@
 	<div class="content has-text-centered">
 		{#if !hasResigned}
 			<h1>Boris has not yet resigned.</h1>
-           		<h6>fuuuuuuuuuuuuuuuuuuuck</h6>
+            <span style="font-size: 10px;">The blood of {deaths.toLocaleString} innocent people are on his hands.</span>
 		{:else}
 			<h1>🦀 BORIS IS GONE 🦀</h1>
 			<p>Boris resigned on <strong>{date.toLocaleString()}</strong>.</p>
@@ -60,6 +60,6 @@
 	<div class="content">
 		<h4>Why should he resign?</h4>
 		His lackluster response to the COVID-19 pandemic during its beginnings have lead to a total of {deaths.toLocaleString()}
-		deaths, with {weekly.toLocaleString()} occurring this week.
+		deaths, with {weekly.toLocaleString()} occurring this week. Whilst we made sacrefices, Boris and his team partied away at No. 10 ignoring all social distancing rules.
 	</div>
 </container>
