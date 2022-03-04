@@ -42,7 +42,7 @@
 	<div class="content has-text-centered">
 		{#if !hasResigned}
 			<h1>Boris has not yet resigned.</h1>
-            <h6>The blood of {deaths.toLocaleString} innocent people are on his hands.</h6>
+            <h6>The blood of {deaths.toLocaleString()} innocent people are on his hands.</h6>
 		{:else}
 			<h1>🦀 BORIS IS GONE 🦀</h1>
 			<p>Boris resigned on <strong>{date.toLocaleString()}</strong>.</p>
