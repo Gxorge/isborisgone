@@ -1,6 +1,117 @@
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&family=Libre+Franklin:wght@400;700&display=swap');
+
 body {
-    margin: 0;
-    padding: 16px;
-    max-width: 50em;
     margin: 0 auto;
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+
+    /*
+        piss yellow, very fitting imo
+        - tom
+    */
+    background-color: #713F12;
+    color: #FEFCE8;
+}
+
+
+/* HEADINGS */
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+
+/* status of boris */
+h1#title, h2#subtitle {
+    margin: 0;
+}
+
+h1#title {
+    font-size: 6em;
+    margin-bottom: 0.25em;
+}
+
+h2#subtitle {
+    font-size: 2em;
+}
+
+/* "is still" */
+h1 i, h2 i {
+    display: inline-block;
+    font-weight: 700;
+    font-style: italic;
+    border-bottom: 8px solid #9A3412;
+}
+
+/*
+TODO: properly highlight the "is still" instead of
+      the dodgy border
+      - tom
+  h1#title i::after {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 8px;
+    top: 0;
+    left: 0;
+    background-color: #9A3412;
+} */
+
+/* COMMON */
+b, strong {
+    font-weight: 700;
+}
+
+a {
+    color: #FEF08A;
+    text-decoration: none;
+    border-bottom: 2px solid #FEF08A00;
+}
+
+a:hover, a:focus {
+    border-bottom: 2px solid #FEF08A;
+}
+
+
+/* SECTIONS */
+aside#spinny {
+    width: 100%;
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside#spinny img {
+    height: 100%;
+    animation: rotate 5s linear infinite;
+}
+
+header {
+    text-align: center;
+}
+
+article { 
+    max-width: 40em;
+    margin: 5em auto;
+    padding: 0 1em;
+}
+
+footer {
+    margin: 5em 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+/* ANIMATION */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
