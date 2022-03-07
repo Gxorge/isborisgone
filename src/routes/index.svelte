@@ -74,6 +74,15 @@
 			/>
 		{/if}
 	</div>
+
+	<div id="video-bg">
+		<iframe
+			src="https://www.youtube.com/embed/yM_X_hUgcWU?controls=0&autoplay=1&mute=1&showinfo=0&autohide=1&loop=1"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+		/>
+	</div>
 </header>
 
 <article>
@@ -82,13 +91,13 @@
 
 		<h3>Covid Response</h3>
 		<p>
-			His lackluster response to the COVID-19 pandemic during its beginnings have lead to a total of {deaths.toLocaleString()}
+			His lacklustre response to the COVID-19 pandemic during its beginnings have lead to a total of {deaths.toLocaleString()}
 			deaths, with {weekly.toLocaleString()} occurring just this week. While we made sacrifices, Boris and his team
 			<a
 				href="https://www.theguardian.com/politics/2022/feb/01/boris-johnson-attended-leaving-do-during-strict-january-lockdown"
 				rel="nofollow noreferrer"
 				target="_blank">partied away</a
-			> at No. 10 ignoring all social distancing rules.
+			> at &numero;10 ignoring all social distancing rules.
 		</p>
 
 		<h3>Derogatory Remarks</h3>
@@ -102,6 +111,11 @@
 			Bacon ipsum dolor amet spare ribs kevin meatloaf salami pork loin pancetta. Pancetta sausage bacon strip steak tongue. Ham hock leberkas picanha
 			capicola cupim t-bone. Cupim shoulder beef shankle. Bacon fatback cow ground round ham hock hamburger.
 		</p>
+	</section>
+	<section>
+		<h2>What can I do?</h2>
+
+		<p>Just don't vote for him, love.</p>
 	</section>
 </article>
 
