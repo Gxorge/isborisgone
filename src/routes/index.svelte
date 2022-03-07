@@ -39,11 +39,22 @@
 </script>
 
 <script lang="ts">
+	import { browser } from '$app/env';
+
 	export let hasResigned: boolean;
 	export let endDate: Date;
 	export let daysSinceStart: number;
 	export let deaths: number;
 	export let weekly: number;
+
+	if (browser) {
+		const audioElement = document.getElementById('ffyr') as HTMLAudioElement;
+		const ffyrLink = document.getElementById('ffyr-link') as HTMLAnchorElement;
+
+		ffyrLink.onclick = function () {
+			audioElement.play();
+		};
+	}
 </script>
 
 <!--
@@ -54,34 +65,34 @@
 
 <header>
 	<div id="header-inner">
-		<aside id="spinny">
-			<img src="bojo_face.png" alt="Boris Johnson's Face" />
-		</aside>
-
 		{#if !hasResigned}
 			<h1 id="title">Boris <i>is still</i> <wbr />in &numero;10</h1>
 			<h2 id="subtitle">He's been there for <i>{daysSinceStart} days</i></h2>
 		{:else}
-			<h1>🦀 BORIS IS GONE 🦀</h1>
+			<h1 id="title">🦀 BORIS IS GONE 🦀</h1>
 			<p>Boris ceased being PM on <strong>{endDate.toLocaleString()}</strong>.</p>
 			<br />
-			<iframe
-				src="https://www.youtube.com/embed/LDU_Txk06tM?autoplay=1&amp;t=74"
-				frameborder="0"
-				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen
-				title="bg"
-			/>
 		{/if}
 	</div>
 
 	<div id="video-bg">
-		<iframe
-			src="https://www.youtube.com/embed/yM_X_hUgcWU?controls=0&autoplay=1&mute=1&showinfo=0&autohide=1&loop=1&playlist=yM_X_hUgcWU"
-			title="YouTube video player"
-			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-		/>
+		{#if !hasResigned}
+			<iframe
+				src="https://www.youtube.com/embed/videoseries?list=PLpprX6-_NiuwTt6_-H0hnmm1lkhk23pOF&controls=0&autoplay=1&mute=1&showinfo=0&autohide=1&loop=1&list={!hasResigned
+					? ''
+					: ''}{hasResigned ? '&start=74' : ''}"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			/>
+		{:else}
+			<iframe
+				src="https://www.youtube.com/embed/LDU_Txk06tM&controls=0&autoplay=1&mute=1&showinfo=0&autohide=1&loop=1&list=LDU_Txk06tM&start=74"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			/>
+		{/if}
 	</div>
 </header>
 
@@ -96,7 +107,8 @@
 			<a
 				href="https://www.theguardian.com/politics/2022/feb/01/boris-johnson-attended-leaving-do-during-strict-january-lockdown"
 				rel="nofollow noreferrer"
-				target="_blank">partied away</a
+				target="_blank"
+				id="ffyr-link">partied away</a
 			> at &numero;10 ignoring all social distancing rules.
 		</p>
 
@@ -125,7 +137,7 @@
 		<a href="https://jakegealer.me/">Jake Gealer</a>
 	</p>
 	<p>
-		The music that plays when you click the page is by <a href="https://www.youtube.com/watch?v=FkdqR4WKvuU">PoliticsJOE</a>.
+		The music that plays when you visit the article about parties is by <a href="https://www.youtube.com/watch?v=FkdqR4WKvuU">PoliticsJOE</a>.
 	</p>
 	<!-- @big g, should this be credited to gabriella? -->
 	<p>
@@ -134,3 +146,7 @@
 		&amp; <a href="https://tomr.me">Tom</a>.
 	</p>
 </footer>
+
+<audio id="ffyr" autoplay>
+	<source src="/ffyr.mp3" type="audio/mpeg" />
+</audio>
