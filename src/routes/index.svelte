@@ -84,8 +84,11 @@
 		<p>
 			His lackluster response to the COVID-19 pandemic during its beginnings have lead to a total of {deaths.toLocaleString()}
 			deaths, with {weekly.toLocaleString()} occurring just this week. While we made sacrifices, Boris and his team
-			<a href="https://www.theguardian.com/politics/2022/feb/01/boris-johnson-attended-leaving-do-during-strict-january-lockdown">partied away</a> at No.
-			10 ignoring all social distancing rules.
+			<a
+				href="https://www.theguardian.com/politics/2022/feb/01/boris-johnson-attended-leaving-do-during-strict-january-lockdown"
+				rel="nofollow noreferrer"
+				target="_blank">partied away</a
+			> at No. 10 ignoring all social distancing rules.
 		</p>
 
 		<h3>Derogatory Remarks</h3>
