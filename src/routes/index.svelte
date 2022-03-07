@@ -77,7 +77,7 @@
 
 	<div id="video-bg">
 		<iframe
-			src="https://www.youtube.com/embed/yM_X_hUgcWU?controls=0&autoplay=1&mute=1&showinfo=0&autohide=1&loop=1"
+			src="https://www.youtube.com/embed/yM_X_hUgcWU?controls=0&autoplay=1&mute=1&showinfo=0&autohide=1&loop=1&playlist=yM_X_hUgcWU"
 			title="YouTube video player"
 			frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
