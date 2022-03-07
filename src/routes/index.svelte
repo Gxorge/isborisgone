@@ -83,26 +83,21 @@
 		<h3>Covid Response</h3>
 		<p>
 			His lackluster response to the COVID-19 pandemic during its beginnings have lead to a total of {deaths.toLocaleString()}
-			deaths, with {weekly.toLocaleString()} occurring just this week. While we made sacrifices, Boris
-			and his team
-			<a
-				href="https://www.theguardian.com/politics/2022/feb/01/boris-johnson-attended-leaving-do-during-strict-january-lockdown"
-				>partied away</a
-			> at No. 10 ignoring all social distancing rules.
+			deaths, with {weekly.toLocaleString()} occurring just this week. While we made sacrifices, Boris and his team
+			<a href="https://www.theguardian.com/politics/2022/feb/01/boris-johnson-attended-leaving-do-during-strict-january-lockdown">partied away</a> at No.
+			10 ignoring all social distancing rules.
 		</p>
 
 		<h3>Derogatory Remarks</h3>
 		<p>
-			Spicy jalapeno bacon ipsum dolor amet ham fatback tri-tip andouille beef ribs, kielbasa pork
-			loin prosciutto landjaeger doner. Jowl sausage salami corned beef filet mignon bacon pig
-			brisket doner swine meatball ground round.
+			Spicy jalapeno bacon ipsum dolor amet ham fatback tri-tip andouille beef ribs, kielbasa pork loin prosciutto landjaeger doner. Jowl sausage
+			salami corned beef filet mignon bacon pig brisket doner swine meatball ground round.
 		</p>
 
 		<h3>Serial Liar</h3>
 		<p>
-			Bacon ipsum dolor amet spare ribs kevin meatloaf salami pork loin pancetta. Pancetta sausage
-			bacon strip steak tongue. Ham hock leberkas picanha capicola cupim t-bone. Cupim shoulder beef
-			shankle. Bacon fatback cow ground round ham hock hamburger.
+			Bacon ipsum dolor amet spare ribs kevin meatloaf salami pork loin pancetta. Pancetta sausage bacon strip steak tongue. Ham hock leberkas picanha
+			capicola cupim t-bone. Cupim shoulder beef shankle. Bacon fatback cow ground round ham hock hamburger.
 		</p>
 	</section>
 </article>
@@ -111,6 +106,9 @@
 	<p>
 		Inspired by <a href="https://isgavgone.com/">IsGavGone.com</a> by
 		<a href="https://jakegealer.me/">Jake Gealer</a>
+	</p>
+	<p>
+		The music that plays when you click the page is by <a href="https://www.youtube.com/watch?v=FkdqR4WKvuU">PoliticsJOE</a>.
 	</p>
 	<!-- @big g, should this be credited to gabriella? -->
 	<p>
