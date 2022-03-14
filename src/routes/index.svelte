@@ -11,8 +11,8 @@
 		startDate = new Date(root.details.started_on);
 		endDate = new Date(root.details.ended_on);
 
-		console.log(Date.now());
-		console.log(startDate.getTime());
+		// console.log(Date.now());
+		// console.log(startDate.getTime());
 
 		daysSinceStart = ((Date.now() - startDate.getTime()) / 86400000).toFixed(0);
 
