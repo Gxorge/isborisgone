@@ -112,7 +112,7 @@
 			> at &numero;10 ignoring all social distancing rules.
 		</p>
 
-		<h3>Derogatory Remarks</h3>
+		<!--<h3>Derogatory Remarks</h3>
 		<p>
 			Spicy jalapeno bacon ipsum dolor amet ham fatback tri-tip andouille beef ribs, kielbasa pork loin prosciutto landjaeger doner. Jowl sausage
 			salami corned beef filet mignon bacon pig brisket doner swine meatball ground round.
@@ -122,12 +122,12 @@
 		<p>
 			Bacon ipsum dolor amet spare ribs kevin meatloaf salami pork loin pancetta. Pancetta sausage bacon strip steak tongue. Ham hock leberkas picanha
 			capicola cupim t-bone. Cupim shoulder beef shankle. Bacon fatback cow ground round ham hock hamburger.
-		</p>
+		</p>-->
 	</section>
 	<section>
 		<h2>What can I do?</h2>
 
-		<p>Just don't vote for him, love.</p>
+		<p>Just don't vote tory xx.</p>
 	</section>
 </article>
 
