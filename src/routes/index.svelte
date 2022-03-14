@@ -11,8 +11,8 @@
 		startDate = new Date(root.details.started_on);
 		endDate = new Date(root.details.ended_on);
 
-		console.log(Date.now());
-		console.log(startDate.getTime());
+		// console.log(Date.now());
+		// console.log(startDate.getTime());
 
 		daysSinceStart = ((Date.now() - startDate.getTime()) / 86400000).toFixed(0);
 
@@ -111,6 +111,15 @@
 				id="ffyr-link">partied away</a
 			> at &numero;10 ignoring all social distancing rules.
 		</p>
+
+		<figure class="message">
+			<p>
+				<!-- sorry lewis this is your problem -->
+				<b>This site is currently under construction.</b>
+				<br>Feel free to <a href="mailto:lewistehminerz@outlook.com?subject=boris">get in touch</a> with suggestions
+				for any dodgy Boris-related happenings
+			</p>
+		</figure>
 
 		<!--<h3>Derogatory Remarks</h3>
 		<p>
