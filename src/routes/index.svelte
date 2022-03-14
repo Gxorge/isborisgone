@@ -112,6 +112,15 @@
 			> at &numero;10 ignoring all social distancing rules.
 		</p>
 
+		<figure class="message">
+			<p>
+				<!-- sorry lewis this is your problem -->
+				<b>This site is currently under construction.</b>
+				<br>Feel free to <a href="mailto:lewistehminerz@outlook.com?subject=boris">get in touch</a> with suggestions
+				for any dodgy Boris-related happenings
+			</p>
+		</figure>
+
 		<!--<h3>Derogatory Remarks</h3>
 		<p>
 			Spicy jalapeno bacon ipsum dolor amet ham fatback tri-tip andouille beef ribs, kielbasa pork loin prosciutto landjaeger doner. Jowl sausage

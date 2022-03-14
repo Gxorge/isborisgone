@@ -125,6 +125,18 @@ header div#video-bg iframe {
 	transform: translate(-50%, -50%);
 }
 
+figure.message {
+	margin: 1em 0;
+	padding: 1em;
+	background-color: #292524;
+	border: 2px solid #7F1D1D;
+	text-align: center;
+}
+
+figure.message b {
+	font-size: 1.1em;
+}
+
 @media (min-aspect-ratio: 16/9) {
 	header div#video-bg iframe {
 		/* height = 100 * (9 / 16) = 56.25 */
