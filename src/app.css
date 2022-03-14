@@ -1,6 +1,162 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&family=Libre+Franklin:wght@400;700&display=swap');
+
 body {
-    margin: 0;
-    padding: 16px;
-    max-width: 50em;
-    margin: 0 auto;
+	margin: 0 auto;
+
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 400;
+
+	background-color: #1c1917;
+	color: #fefce8;
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+}
+
+/* status of boris */
+h1#title,
+h2#subtitle {
+	margin: 0;
+}
+
+h1#title {
+	font-size: 6em;
+	margin-bottom: 0.25em;
+}
+
+h2#subtitle {
+	font-size: 2em;
+}
+
+/* "is still" */
+h1 i,
+h2 i {
+	display: inline-block;
+	font-weight: 700;
+	font-style: italic;
+	padding: 0 0.1em;
+	/*border-bottom: 8px solid ;*/
+
+	position: relative;
+}
+
+h1 i::after,
+h2 i::after {
+	display: block;
+	margin-top: calc(-0.7em);
+	content: '';
+	background: #9a3412;
+	min-height: 0.6em;
+	width: calc(100% + 0.2em);
+
+	position: absolute;
+	left: -0.1em;
+	z-index: -1;
+}
+
+/*
+TODO: properly highlight the "is still" instead of
+      the dodgy border
+      - tom
+  h1#title i::after {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 8px;
+    top: 0;
+    left: 0;
+    background-color: #9A3412;
+} */
+
+/* COMMON */
+b,
+strong {
+	font-weight: 700;
+}
+
+a {
+	color: #fef08a;
+	text-decoration: none;
+	border-bottom: 2px solid #fef08a00;
+}
+
+a:hover,
+a:focus {
+	border-bottom: 1px solid #fef08a;
+}
+
+/* SECTIONS */
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+	background-color: rgba(113, 63, 18, 0.5);
+	background: linear-gradient(180deg, rgba(113, 63, 18, 0.5) 0%, rgba(113, 63, 18, 0.5) 60%, rgba(28, 25, 23, 0.5) 100%);
+	color: #fefce8;
+	text-align: center;
+
+	position: relative;
+}
+
+header div#video-bg {
+	position: absolute;
+	z-index: -99;
+
+	width: 100%;
+	height: 100%;
+
+	overflow: hidden;
+}
+
+header div#video-bg iframe {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100vw;
+	height: 100vh;
+	transform: translate(-50%, -50%);
+}
+
+@media (min-aspect-ratio: 16/9) {
+	header div#video-bg iframe {
+		/* height = 100 * (9 / 16) = 56.25 */
+		height: 56.25vw;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	header div#video-bg iframe {
+		/* width = 100 / (9 / 16) = 177.777777 */
+		width: 177.78vh;
+	}
+}
+
+article {
+	max-width: 40em;
+	margin: 5em auto;
+	padding: 0 1em;
+}
+
+footer {
+	margin: 5em 1em;
+	padding: 1em;
+	text-align: center;
+}
+
+/* ANIMATION */
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
