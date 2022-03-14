@@ -116,7 +116,7 @@
 			<p>
 				<!-- sorry lewis this is your problem -->
 				<b>This site is currently under construction.</b>
-				<br>Feel free to <a href="mailto:lewistehminerz@outlook.com?subject=boris">get in touch</a> with suggestions
+				<br>Feel free to <a href="mailto:isborisgone@lewistehminerz.dev">get in touch</a> with suggestions
 				for any dodgy Boris-related happenings
 			</p>
 		</figure>
