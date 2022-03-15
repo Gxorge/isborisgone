@@ -112,12 +112,42 @@
 			> at &numero;10 ignoring all social distancing rules.
 		</p>
 
+		<p>
+			When procuring PPE, Boris and his Government <a href="https://www.bbc.co.uk/news/uk-56851877" rel="nofollow noreferrer" target="_blank"
+				>fast-tracked their mates</a
+			>
+			and their brand new companies who cost us millions in
+			<a
+				href="https://metro.co.uk/2021/07/19/no-one-has-yet-bought-uks-2000000-rejected-pieces-of-ppe-14952157/"
+				rel="nofollow noreferrer"
+				target="_blank">unsuitable product</a
+			>, while ignoring offers from existing, well-established companies.
+		</p>
+
+		<h3>Derogatory Remarks</h3>
+		<p>
+			<!-- i can only apologise for what the formatter did here - tom -->
+			Boris has
+			<a href="https://www.bbc.co.uk/news/uk-politics-45083275" rel="nofollow noreferrer" target="_blank">compared Muslims in burkas to letterboxes</a
+			>,
+			<a
+				href="https://www.pinknews.co.uk/2019/11/22/boris-johnson-refuses-apologise-tank-topped-bum-boys-jibe-again/"
+				rel="nofollow noreferrer"
+				target="_blank">referred to gay people as 'tank-topped bum-boys'</a
+			>
+			and
+			<a
+				href="https://www.pinknews.co.uk/2019/06/18/boris-johnson-lgbt-rights-record-anti-gay-slurs-liberal-stance/"
+				rel="nofollow noreferrer"
+				target="_blank">hit against the teaching of homosexuality in schools</a
+			>.
+		</p>
+
 		<figure class="message">
 			<p>
 				<!-- sorry lewis this is your problem -->
 				<b>This site is currently under construction.</b>
-				<br>Feel free to <a href="mailto:isborisgone@lewistehminerz.dev">get in touch</a> with suggestions
-				for any dodgy Boris-related happenings
+				<br />Feel free to <a href="mailto:isborisgone@lewistehminerz.dev">get in touch</a> with suggestions for any dodgy Boris-related happenings
 			</p>
 		</figure>
 
@@ -136,7 +166,9 @@
 	<section>
 		<h2>What can I do?</h2>
 
-		<p>Just don't vote tory xx.</p>
+		<p>Want something easy? Donate to organisations such as <a href="
+			https://goodlawproject.org/">The Good Law Project</a> and vote against the Tories in elections.</p>
+		<p>Want to get more involved? Why not try leafleting and donating your time to a political party that isn't spearheaded by clowns.</p>
 	</section>
 </article>
 
