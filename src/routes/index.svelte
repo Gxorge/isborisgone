@@ -180,7 +180,7 @@
 	<p>
 		The music that plays when you visit the article about parties is by <a href="https://www.youtube.com/watch?v=FkdqR4WKvuU">PoliticsJOE</a>.
 	</p>
-	<!-- @big g, should this be credited to gabriella? -->
+	
 	<p>
 		Made with 💞 by <a href="https://gabriella.moe/">Gabriella</a>,
 		<a href="https://lewistehminerz.dev/">Lewis</a>
