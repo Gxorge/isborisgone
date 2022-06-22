@@ -142,6 +142,12 @@
 				target="_blank">hit against the teaching of homosexuality in schools</a
 			>.
 		</p>
+		
+		<h3>RMT Strikes</h3>
+		<p>
+			In summer 2022, Boris Johnson, Grant Shapps (the Transport Secretary) and his Government 
+			<a href="https://www.theguardian.com/politics/2022/jun/22/boris-johnson-not-lifted-a-finger-solve-rail-strikes-keir-starmer-pmqs" rel="nofollow noreferrer" target="_blank">refused</a> to sit at the table with the RMT Union amid concerns over pay, job security and worker conditions.
+		</p>
 
 		<figure class="message">
 			<p>
