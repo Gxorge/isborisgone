@@ -188,8 +188,8 @@
 	</p>
 	
 	<p>
-		Made with 💞 by <a href="https://gabriella.moe/">Gabriella</a>,
-		<a href="https://lewistehminerz.dev/">Lewis</a>
+		Made with 💞 by <a href="https://ghott.me">George</a>,
+		<a href="https://lewisakura.moe">Lewis</a>
 		&amp; <a href="https://tomr.me">Tom</a>.
 	</p>
 </footer>
