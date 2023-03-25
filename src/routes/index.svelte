@@ -87,7 +87,7 @@
 			/>
 		{:else}
 			<iframe
-				src="https://www.youtube.com/embed/LDU_Txk06tM&controls=0&autoplay=1&mute=1&showinfo=0&autohide=1&loop=1&list=LDU_Txk06tM&start=74"
+				src="https://www.youtube.com/embed/cE0wfjsybIQ?controls=0&autoplay=1&mute=1&showinfo=0&autohide=1&loop=1&start=74"
 				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
