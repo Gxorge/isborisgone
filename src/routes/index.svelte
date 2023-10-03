@@ -97,6 +97,15 @@
 </header>
 
 <article>
+
+	<figure class="message">
+		<p>
+			<!-- sorry lewis this is your problem -->
+			<b>This site is no-longer being updated.</b>
+			<br />This site was created in 2022 to humorously monitor whether former PM Boris Johnson had resigned. As he has now resigned, we are no-longer updating the site with more of his immoral actions.
+		</p>
+	</figure>
+
 	<section>
 		<h2>Why should he resign?</h2>
 
@@ -149,14 +158,6 @@
 			<a href="https://www.theguardian.com/politics/2022/jun/22/boris-johnson-not-lifted-a-finger-solve-rail-strikes-keir-starmer-pmqs" rel="nofollow noreferrer" target="_blank">refused</a> to sit at the table with the RMT Union amid concerns over pay, job security and worker conditions.
 		</p>
 
-		<figure class="message">
-			<p>
-				<!-- sorry lewis this is your problem -->
-				<b>This site is currently under construction.</b>
-				<br />Feel free to <a href="mailto:isborisgone@lewistehminerz.dev">get in touch</a> with suggestions for any dodgy Boris-related happenings
-			</p>
-		</figure>
-
 		<!--<h3>Derogatory Remarks</h3>
 		<p>
 			Spicy jalapeno bacon ipsum dolor amet ham fatback tri-tip andouille beef ribs, kielbasa pork loin prosciutto landjaeger doner. Jowl sausage
@@ -197,12 +198,3 @@
 <audio id="ffyr" autoplay>
 	<source src="/ffyr.mp3" type="audio/mpeg" />
 </audio>
-
-<!--
-	this should be elsewhere but it's fiiiiiiiine - tom
--->
-<script>
-window.onload = () => {
-	alert(`THIS SITE IS NO LONGER BEING UPDATED\n\nThis site was created in 2022 to humorously monitor whether former PM Boris Johnson had resigned, as well as provide information about some of his--and the Tory party's--immoral actions. He left office before we had a chance to flesh the site out with too much content.`);
-}
-</script>
