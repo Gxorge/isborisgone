@@ -181,7 +181,7 @@
 <footer>
 	<p>
 		Inspired by <a href="https://isgavgone.com/">IsGavGone.com</a> by
-		<a href="https://jakegealer.me/">Jake Gealer</a>
+		<a href="https://astrid.place/">Astrid Gealer</a>
 	</p>
 	<p>
 		The music that plays when you visit the article about parties is by <a href="https://www.youtube.com/watch?v=FkdqR4WKvuU">PoliticsJOE</a>.
@@ -197,3 +197,12 @@
 <audio id="ffyr" autoplay>
 	<source src="/ffyr.mp3" type="audio/mpeg" />
 </audio>
+
+<!--
+	this should be elsewhere but it's fiiiiiiiine - tom
+-->
+<script>
+window.onload = () => {
+	alert(`THIS SITE IS NO LONGER BEING UPDATED\n\nThis site was created in 2022 to humorously monitor whether former PM Boris Johnson had resigned, as well as provide information about some of his--and the Tory party's--immoral actions. He left office before we had a chance to flesh the site out with too much content.`);
+}
+</script>
