@@ -21,18 +21,18 @@
 		hasResigned = endDate.getFullYear() > 2020 ? true : false;
 
 		// Stats
-		let covidDeaths = await fetch(
-			'https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&structure=%7B%22deaths%22:%22cumOnsDeathsByRegistrationDate%22,%22weekly%22:%22newWeeklyNsoDeathsByRegDate%22%7D&latestBy=cumOnsDeathsByRegistrationDate'
-		);
-		let deathsJson = await covidDeaths.json();
+		//let covidDeaths = await fetch(
+		//	'https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&structure=%7B%22deaths%22:%22cumOnsDeathsByRegistrationDate%22,%22weekly%22:%22newWeeklyNsoDeathsByRegDate%22%7D&latestBy=cumOnsDeathsByRegistrationDate'
+		//);
+		//let deathsJson = await covidDeaths.json();
 
 		return {
 			props: {
 				hasResigned,
 				endDate,
 				daysSinceStart,
-				deaths: deathsJson.data[0].deaths,
-				weekly: deathsJson.data[0].weekly
+				/*deaths: deathsJson.data[0].deaths,
+				weekly: deathsJson.data[0].weekly*/
 			}
 		};
 	};
@@ -111,8 +111,8 @@
 
 		<h3>Covid Response</h3>
 		<p>
-			His lacklustre response to the COVID-19 pandemic during its beginnings have lead to a total of {deaths.toLocaleString()}
-			deaths, with {weekly.toLocaleString()} occurring just this week. While we made sacrifices, Boris and his team
+			His lacklustre response to the COVID-19 pandemic during its beginnings have lead to a total of over 230,000
+			deaths, with roughly 100 occurring each week. While we made sacrifices, Boris and his team
 			<a
 				href="https://www.theguardian.com/politics/2022/feb/01/boris-johnson-attended-leaving-do-during-strict-january-lockdown"
 				rel="nofollow noreferrer"
